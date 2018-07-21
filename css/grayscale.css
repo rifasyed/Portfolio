@@ -194,6 +194,41 @@ a:focus, a:hover {
   background-size: cover;
 }
 
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.projects-section {
+  padding: 10rem 0;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
 #map {
   width: 100%;
   height: 300px;
@@ -280,4 +315,10 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+#profilePic {
+  border-radius: 50%;
+  height: 300px;
+  margin-bottom: 5%;
 }
