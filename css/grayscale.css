@@ -196,6 +196,8 @@ a:focus, a:hover {
 
 .bg-black {
   background-color: #161616 !important;
+  /* max-height: 500px;
+  overflow-y: scroll; */
 }
 
 .projects-section {
